@@ -1,0 +1,70 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  height: 34px;
+  width: 200px;
+}
+
+.search-el {
+  border: none;
+  background-color: #f1f5f9;
+}
+
+.category-list {
+  list-style-type: none;
+  text-align: start;
+}
+
+.category-list-item {
+  margin-bottom: 20px;
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #64748b;
+}
+
+.category-heading {
+  font-size: 20px;
+  font-family: 'roboto';
+}
+
+.rating-img {
+  height: 20px;
+}
+
+.rating-el {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+
+.clear-btn {
+  background-color: transparent;
+  border-color: #0967d2;
+  color: #0967d2;
+  height: 30px;
+  width: 110px;
+  border-radius: 5px;
+}
+
+.rating-paragraph {
+  color: #64748b;
+  font-family: 'roboto';
+}
